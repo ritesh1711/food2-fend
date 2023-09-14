@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './styles/tailwind.css'; // Import the Tailwind CSS file
 
 
@@ -10,6 +9,7 @@ const MyComponent = () => {
       <div className='flex flex-row justify-between'>
       <div className='pr-10'>services</div>
       <div className='pr-10'>contact</div>
+      <div className='pr-10'>about us</div>
       </div>
     </header>
   );
